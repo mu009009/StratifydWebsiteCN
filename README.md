@@ -1,2 +1,2 @@
-# StratifydWebsiteCN
-Stratifyd CN
+# StratifydWebsiteSimple
+Stratifyd Website Delete A lot useless code
