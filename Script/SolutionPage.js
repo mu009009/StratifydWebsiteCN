@@ -402,7 +402,7 @@ d3.select('#FirstViewDemo')
 	})
 	.on("click",function()
 	{
-		window.location.href = "https://signals.stratifyd.com/explorer.html?d=5762bbdc59820b22d64cb463&jq=%5B%5D&t=TvcVGsQhUu%2BYbWLkwNqtPqETGF6OtNUFC5jbLahXab9B78v2";
+		window.location.href = "https://demo.tasteanalytics.cn/explorer.html?d=5769edc5abe6094c86282353&jq=%5B%5D&t=WIB2cuo1X0ez77UWglZHPCf5xUN8KpY7dCo9K1D5qmp1prPD";
 	})
 
 
