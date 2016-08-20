@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<link href="CSS/Global.css" rel="stylesheet"/>
+	<link href="CSS/Buttons.css" rel="stylesheet"/>
+	<link href="CSS/CanvasBox.css" rel="stylesheet"/>
+	<link href="CSS/LandingPageDesigned.css" rel="stylesheet"/>	
+</head>
+<body>
+<!--Maincotainer the whole page-->	
+	
+
+		<nav class="navbar navbar-default" role="navigation" id="NavBarPart">
+	   <div class="navbar-header" id="CompanyTitelPartImportent">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" 
+			 data-target="#example-navbar-collapse">
+			 <span class="sr-only">Switch</span>
+			 <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>
+			 <span class="icon-bar"></span>			  
+		  </button>
+		  <a class="navbar-brand" id="CompanyIconTitleText" href="#">
+			  <img class="img" src="Resource/Icons/Stratifyd/Stratifyd-Logo-Simple-white.png" id="NavTitleCompanyIcon">
+			  </img> 
+<!--			  <span class="NavTitleName" id="StratifydLogoText">Stratifyd</span> -->
+<!--		   <img class="img" src="Resource/Icons/Stratifyd/Stratifyd-Logo-Simple-text-white.png" id="StratifydLogoText"></img>-->
+		   </a>	
+	   </div>
+	   <div class="collapse navbar-collapse" id="example-navbar-collapse">
+		  <ul class="nav navbar-nav" id="NavbarDetailPart">
+			 <li class="active NavBarButtons" id="navProduct"><a href="#">产品</a></li>
+			 <li class="active NavBarButtons" id="navSolution"><a href="#">解决方案</a></li>
+			 <li class="active NavBarButtons" id="navBlog"><a href="#">博客</a></li>
+			 <li class="dropdown">
+				 <a href="#" class="dropdown-toggle NavBarButtons" data-toggle="dropdown"id="DraopDownMenu1">
+					 关于<b class="caret"></b>
+				 </a>
+				 <ul class="dropdown-menu NavBarButtons">
+					 <li><a href="#" id="navOurTeam">关于我们</a>
+					 </li>
+					 <li><a href="#" id="navContactUs">联系我们</a>
+					 </li>
+				 </ul>
+			  </li>
+		 		<li class="active NavBarButtons" id="navLogIN"><a href="#">登录</a></li>	  
+<!--			 <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarLoginPart"><a class = "btn NavBarButtons" id="NavBarLoginButton">Log In</a></li>-->
+<!--		     <li class="active NavBarButtons col-xs-12 col-sm-2 col-md-2" id = "NavBarSignUpPart"><a class = "btn NavBarButtons" id="NavBarSignUpButton">Sign Up</a></li>		 -->
+		  </ul>
+	   </div>
+	</nav>
+	
+<div class="jumbotron" id="TitleBar">
+	
+	<div class = "container" id = "LandingPageMainTitleContainer">
+		
+		<div class="row">
+<!--
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			</div>
+-->
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h1 class="Introduce IntroTitle" id="MainAttarctText">从海量数据到企业利润的最佳捷径
+				<h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+			</div>		
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+				<h3 class="Introduce IntroCotent" id="SignalsText">
+					Signals 是一个企业级的商业分析平台，专注于运用增强智能将有效分析结果转化为行动力。
+				</h3>
+			</div>		
+		</div>
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-md-6 text-right" id = "TitleButtonPart1">
+				<span class="btn btn-info" id="FirstTry">免费试用</span>
+			</div>
+			
+			<div class="col-xs-12 col-sm-12 col-md-6 col-md-6 text-left" id = "TitleButtonPart2">
+				<span class="btn btn-info" id="LandingFirstLearnMoreProduct">了解更多</span>
+			</div>
+			
+		</div>			
+		
+	</div>
+			
+</div>
+
+	
+<div class = "container" id = "BubbleProcessDetailCotainer">
+	
+	<div class="row">
+		<div class = "col-sm-12 text-center" id = "FirstSubTitle">
+			<h1 class = "SecondRowTitle">商业分析平台</h1>
+		</div>
+	</div>
+	
+<!--
+	<div class = "row" id = "ProcessDetailContent">
+		<div class = "col-xs-12 col-sm-12 col-md-12 text-center">
+			
+			<div class = "col-xs-12 col-sm-12 col-md-4 ProcessDetailSignalBox" id="DetailColum1">
+				
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					
+						<img src="Resource/LandingPageImages/Integrate.png" class="img BubblePart" id = "CircleBubble1">
+						</img>
+						<h4 class="IconTitleS CirclePart" id = "IntegrateTitleCenter">Integrate</h4>
+				
+				</div>
+			
+				<div class="col-xs-12 col-sm-12 col-md-1 ProcessDetailTextIntro">
+				</div>	
+
+				<div class="col-xs-12 col-sm-12 col-md-10 ProcessDetailTextIntro">
+					
+					<h4 class="ProcessDetailText" id="ProcessDetailText1">
+						Easy to upload unstructured data with simple clicks. Types of Data:
+					</h4>
+					
+					<h4 class="ProcessDetailText" id="ProcessDetailText2">
+						Call Center CSV Email EXE Internal Data
+					</h4>
+					
+					<h4 class="ProcessDetailText" id="ProcessDetailText2">
+						Social Media Surveys
+					</h4>					
+					
+				</div>			
+
+			
+			</div>
+		
+			<div class = "col-xs-12 col-sm-12 col-md-4 ProcessDetailSignalBox" id="DetailColum2">
+				
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					
+						<img src="Resource/LandingPageImages/Process.png" class="img BubblePart" id = "CircleBubble2">
+						</img>					
+						<h4 class="IconTitleS CirclePart" id = "ProcessTitleCenter">Process</h4>				
+				
+				</div>
+		
+				<div class="col-xs-12 col-sm-12 col-md-1 ProcessDetailTextIntro">
+				</div>	
+
+				<div class="col-xs-12 col-sm-12 col-md-10 ProcessDetailTextIntro">
+					
+					<h4 class="ProcessDetailText" id="ProcessDetailText1">
+						Process large volume of data in a short period of time.
+					</h4>				
+					
+				</div>			
+
+			</div>
+	
+			<div class = "col-xs-12 col-sm-12 col-md-4 ProcessDetailSignalBox" id="DetailColum3">
+				
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					
+						<img src="Resource/LandingPageImages/Visulization.png" class="img BubblePart" id = "CircleBubble3">
+						</img>					
+						<h4 class="IconTitleS CirclePart" id = "VisualizationTitleCenter">Visualization
+						</h4>					
+				
+				</div>
+	
+				<div class="col-xs-12 col-sm-12 col-md-1 ProcessDetailTextIntro">
+				</div>	
+
+				
+				<div class="col-xs-12 col-sm-12 col-md-10 ProcessDetailTextIntro">
+					
+					<h4 class="ProcessDetailText" id="ProcessDetailText1">
+						Interact with visual analytics and generate actionalbe insights.
+					</h4>				
+					
+				</div>	
+	
+			</div>			
+		
+		</div>
+	</div>
+-->
+	
+	<div class = "row" id = "ProcessDetailContent">
+		<div class = "col-xs-12  col-sm-12 col-md-12 text-center">
+			
+			<div class = "col-xs-12 col-sm-12 col-md-12 ProcessDetailSignalBox2" id="DetailColum1">
+				
+				<div class="col-xs-12 col-sm-12 col-md-3" id="DetailColum1">
+					
+						<img src="Resource/LandingPageImages/BlueIntegrateIcon.png" class="img BubblePart BigSize" id = "CircleBubble1">
+						</img>
+				
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-7 ProcessDetailTextIntro2 text-left" id="DetailColum1">
+					
+					<h3 class="IconTitleS ThirdTitle" id = "IntegrateTitle">简易数据导入</h3>
+					
+					<h4 class="ProcessDetailText" id="IntegrateDetailText1">
+						只需链接已有数据库或者使用Signals数据连接器获得公开数据
+					</h4>
+					
+					<h4 class="ProcessDetailText" id="IntegrateDetailText2">
+						鼠标拖拽即可完成
+					</h4>
+					
+<!--
+					<h4 class="ProcessDetailIntroText text-left" id="IntegrateDetailIntroText2">
+						Data connectors include Salesforce, Twitter, Facebook, Google Play Store, iOS app Store and many more. The list is always growing!
+					</h4>
+-->
+					
+				</div>			
+
+			
+			</div>
+		
+			<div class = "col-xs-12 col-sm-12 col-md-12 ProcessDetailSignalBox2" id="DetailColum2">
+				
+				<div class="col-xs-12 col-sm-12 col-md-12" id="DetailColum2">
+					
+					<div class="col-xs-12 col-sm-12 col-md-2">
+					</div>
+					
+					<div class="col-xs-12 col-sm-12 col-md-3" id="DetailColum2ImageBox">
+
+							<img src="Resource/LandingPageImages/BlueProcessIcon.png" class="img BubblePart BigSize" id = "CircleBubble2">
+							</img>
+
+					</div>
+				
+					<div class="col-xs-12 col-sm-12 col-md-7 ProcessDetailTextIntro2 text-right" id="DetailColum2">
+
+						<h3 class="IconTitleS ThirdTitle" id = "ProcessTitle">智能自动分析</h3>
+
+						<h4 class="ProcessDetailText" id="ProcessDetailText1">
+								Signals专业分析引擎会运用深度机器学习和NLP(自然语言分析）来自动识别相关联信息
+						</h4>
+						
+<!--
+						<h4 class="ProcessDetailText" id="ProcessDetailText1">
+								Let Signals’ Deep Machine Learning engine do the heavy lifting by detecting relevant themes in the data, no training required.
+						</h4>
+-->
+						
+<!--
+						<h4 class="ProcessDetailIntroText" id="ProcessDetailIntroText2">
+							Data connectors include Salesforce, Twitter, Facebook, Google Play Store, iOS app Store and many more. The list is always growing!
+						</h4>
+-->
+
+					</div>
+					
+				</div>		
+
+			</div>
+	
+			<div class = "col-xs-12 col-sm-12 col-md-12 ProcessDetailSignalBox2" id="DetailColum3">
+				
+				<div class="col-xs-12 col-sm-12 col-md-12" id="DetailColum3">
+					
+					<div class="col-xs-12 col-sm-12 col-md-3" id="DetailColum3">
+
+							<img src="Resource/LandingPageImages/BlueVisulizationIcon.png" class="img BubblePart BigSize" id = "CircleBubble3">
+							</img>
+
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-7 ProcessDetailTextIntro2 text-left" id="DetailColum3">
+
+						<h3 class="IconTitleS ThirdTitle" id = "VisualizationTitle"> 有效的可视化和人机互动</h3>
+
+						<h4 class="ProcessDetailText" id="VisualizationText1">
+							不仅仅是数据可视化和商业智能
+						</h4>
+						
+						<h4 class="ProcessDetailText" id="VisualizationText2">
+							细致全面的展现可视化分析结果
+						</h4>
+						
+<!--
+						<h4 class="ProcessDetailIntroText" id="VisualizationDetailIntroText2">
+							Create a dashboard or do a deep-dive analysis. No need for a data scientist.
+						</h4>
+-->
+						
+					</div>			
+				
+				</div>
+	
+			</div>			
+		
+		</div>
+	</div>	
+	
+</div>
+<!--</div>-->
+
+<div class = "container" id = "ProcessDetailCotainer">
+	
+	<div class="row">
+		<div class = "col-xs-12 col-sm-12 col-md-12 text-center" id = "LinkButtonPartText1">
+			<h2 class="SecondRowTitle" id="ASolutionYNTitle">解决方案</h2>
+		</div>
+	</div>
+	
+	<div class="row" id="FirstLinkButtonRow">
+				
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder" id = "LinkButtonCotainBox11">
+
+				<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView11">
+					<img src="Resource/Icons/BottomLinkIcons/NewExcutivesIcon.png" class="img BottomIcons" id="ExecutiveIcon">
+					</img>
+					<h5 class = "IconTitleS WhiteText" id = "ExecutiveTitle">管理</h5>
+				</div>
+
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainText11">
+
+					<h5 class="LittleTitle"> 管理:
+					</h5>
+					<P>
+					<h5 class="TextControl">根据实时准确数据分析制定决策</h5>
+					</P>
+
+					<p>
+					<h5 class = "IconTitleS BlueLinkText" id = "ExecutiveLearnMore">了解更多</h5>	
+					</p>
+
+				</div>
+
+			</div>
+		</div>
+			
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder" id = "LinkButtonCotainBox12">
+
+				<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView12">
+					<img src="Resource/Icons/BottomLinkIcons/User_white.png" class="img BottomIcons" id="BusinessIntIcon">
+					</img>
+					<h5 class = "IconTitleS WhiteText" id = "BussinessIntTitle">商业分析员</h5>				
+				</div>
+
+				<div class = 'col-sm-12 col-md-12 SolutionBox' id = "LinkCotainText12">
+
+					<h5 class="LittleTitle"> 商业分析员:
+					</h5>
+
+					<p>
+					<h5 class="TextControl">快速准确制定深度数据分析报告</h5>
+					</p>
+
+					<p>
+					<h5 class = "IconTitleS BlueLinkText" id = "BusinessIntLearnMore">了解更多</h5>	
+					</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder" id = "LinkButtonCotainBox13">
+
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainMainView13">
+					<img src="Resource/Icons/BottomLinkIcons/NewMarketingIcon_White.png" class="img BottomIcons" id="MarketingIcon">
+					</img>
+					<h5 class = "IconTitleS WhiteText" id = "MarketingTitle">市场营销</h5>				
+				</div>
+
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainText13">
+
+					<h5 class="LittleTitle"> 市场营销:
+					</h5>
+
+					<p>
+					<h5 class="TextControl">根据热点制定有效市场营销活动</h5>					
+					</p>
+
+					<p>
+					<h5 class = "IconTitleS BlueLinkText" id = "MarketingLearnMore">了解更多</h5>	
+					</p>
+				</div>
+
+			</div>			
+		</div>
+		
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder" id = "LinkButtonCotainBox14">
+
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainMainView14">
+					<img src="Resource/Icons/BottomLinkIcons/NewCustomerIcon.png" class="img BottomIcons" id="CustomerExIcon">
+					</img>
+					<h5 class = "IconTitleS WhiteText" id = "CustomerEXTitle">用户体验</h5>
+				</div>
+
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainText14">
+
+					<h5 class="LittleTitle">用户体验:
+					</h5>
+
+					<p>
+					<h5 class="TextControl">时时了解用户情感趋势，做出快速反应</h5>	
+					</p>
+
+					<p>
+					<h5 class = "IconTitleS BlueLinkText" id = "CustomerexperienceLearnMore">了解更多</h5>	
+					</p>
+
+				</div>
+
+			</div>			
+		</div>
+
+	</div>
+
+	<div class="row" id="SecondLinkButtonRow">
+		
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder2" id = "LinkButtonCotainBox21">
+
+				<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView21">
+					<img src="Resource/Icons/BottomLinkIcons/NewRetailIcon.png" class="img BottomIcons" id="RetailIcon">
+					</img>
+					<h5 class = "IconTitleS WhiteText" id = "RetailTitle">零售业</h5>				
+				</div>
+
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainText21">
+
+					<h5 class="LittleTitle">零售业: 
+					</h5>
+
+					<p>
+					<h5 class="TextControl">精准分析用户，了解目标用户的购买趋势</h5>	
+					</p>
+
+					<p>
+					<h5 class = "IconTitleS BlueLinkText" id = "RetailLearnMore">了解更多</h5>	
+					</p>
+
+				</div>		
+
+			</div>			
+		</div>
+
+
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12  col-md-12 CenterandBoder2" id = "LinkButtonCotainBox22">
+			
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainMainView22">
+					<img src="Resource/Icons/BottomLinkIcons/NewUtilitiesIcon.png" class="img BottomIcons" id="UtilitiesIcon">
+					</img>
+					<h5 class = "IconTitleS WhiteText" id = "UtilitiesTitle">Utilities</h5>				
+				</div>
+
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainText22">
+
+					<h5 class="LittleTitle">公共事业: 
+					</h5>
+
+					<p>
+					<h5 class="TextControl">有效及时对用户反馈做出回应</h5>	
+					</p>
+
+					<p>
+					<h5 class = "IconTitleS BlueLinkText" id = "UtilitiesLearnMore">了解更多</h5>	
+					</p>
+
+				</div>	
+
+			</div>
+		</div>
+
+
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder2" id = "LinkButtonCotainBox23">
+				<div class = 'col-sm-12 SolutionBox' id = "LinkCotainMainView23">
+					<img src="Resource/Icons/BottomLinkIcons/NewHospitalityIcon_White.png" class="img BottomIcons" id="HospitalityIcon">
+					</img>
+					<h5 class = "IconTitleS WhiteText" id = "HospitalityTitle">酒店</h5>					
+				</div>
+
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainText23">
+
+					<h5 class="LittleTitle">酒店:
+					</h5>
+
+					<p>
+					<h5 class="TextControl">只需几下点击，有效提高用户体验</h5>	
+					</p>
+
+					<p>
+					<h5 class = "IconTitleS BlueLinkText" id = "HospitalityLearnMore">了解更多</h5>	
+					</p>
+
+				</div>	
+
+			</div>			
+		</div>
+
+
+		<div class = "col-xs-12 col-sm-6 col-md-3 CenterandBoderBox">
+			<div class = "col-xs-12 col-sm-12 col-md-12 CenterandBoder2" id = "LinkButtonCotainBox24">
+
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainMainView24">
+					<img src="Resource/Icons/BottomLinkIcons/NewFinaicialIcon_White.png" class="img BottomIcons" id="FinancialIcon">
+					</img>
+					<h5 class = "IconTitleS WhiteText" id = "FinancialTitle">金融</h5>				
+				</div>
+
+				<div class = 'col-xs-12 col-sm-12 col-md-12 SolutionBox' id = "LinkCotainText24">
+
+					<h5 class="LittleTitle">金融: 
+					</h5>
+
+					<p>
+					<h5 class="TextControl">有效提高市场占有率，增强竞争力</h5>	
+					</p>
+
+					<p>
+					<h5 class = "IconTitleS BlueLinkText" id = "FinancialLearnMore">了解更多</h5>	
+					</p>
+
+				</div>	
+
+			</div>			
+		</div>
+
+
+	</div>
+</div>
+
+<div class = "containers" id = "CompanyCotainers">
+	
+	<div class = "container" id = "CompanyCotainers">
+		<div class="row CoustomerIconPart" id="CompanyIconPartTitleRow1">
+			<div class = "col-xs-12 col-sm-12 col-md-12 text-center">
+				<h3 class = "CustomerTitle" id = "CustomerTitle">我们的客户</h3>
+			</div>
+		</div>
+
+		<div class="row CoustomerIconPart" id="CompanyIconPartRow1">
+
+			<div class = "col-xs-12 col-sm-12 col-md-2">
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox1">
+				<img class = "AdImageShow" id = "Ad1" src="Resource/Icons/CustomerCompanyIcon/Icons/lenovo.png" alt = "Lenovo">
+				</img>
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox3">
+				<img class = "AdImageShow" id = "Ad3" src="Resource/Icons/CustomerCompanyIcon/Icons/fultonHogan.png" alt = "Fultno">
+				</img>
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox4">
+				<img class = "AdImageShow" id = "Ad4" src="Resource/Icons/CustomerCompanyIcon/Icons/Masco.png" alt = "Masco">
+				</img>
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2" id = "AdImageBox6">
+				<img class = "AdImageShow" id = "Ad6" src="Resource/Icons/CustomerCompanyIcon/Icons/ally.png" alt = "Ally">
+				</img>
+			</div>
+
+		</div>
+
+		<div class="row CoustomerIconPart" id="CompanyIconPartRow2">
+
+			<div class="col-xs-12 col-sm-12 col-md-2">
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2 col-lg-2" id = "AdImageBox7">
+				<img class = "AdImageShow" id = "Ad7" src="Resource/Icons/CustomerCompanyIcon/Icons/shadowdataChange.png" alt = "Shadowdata">
+				</img>
+			</div>
+
+			<div class = "col-xs-6 col-sm-4 col-md-2 col-lg-2" id = "AdImageBox8">
+				<img class = "AdImageShow" id = "Ad8" src="Resource/Icons/CustomerCompanyIcon/Icons/Tinypulse.png" alt = "Tinypluse">
+				</img>
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2" id = "AdImageBox9">
+				<img class = "AdImageShow" id = "Ad9" src="Resource/Icons/CustomerCompanyIcon/Icons/Erwin%20Penland.png" alt = "Erwin">
+				</img>
+			</div>
+
+			<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2" id = "AdImageBox10">
+				<img class = "AdImageShow" id = "Ad10" src="Resource/Icons/CustomerCompanyIcon/Icons/lowe's.png" alt = "Lowes">
+				</img>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class = "containers" id = "TextSayingPart">
+	
+	<div class = "container">
+		<div class = "row" id = "SayingPart">
+			<h2 class="text-center" id="SayingTitle">客户见证</h2>
+		</div>
+
+		<div class = "row" id = "SayingTextPart">
+			<div class="" id = "TextBox">
+
+				<div class="col-xs-12 col-sm-12 col-md-4" id = "TextContent1">
+					<div class = "col-xs-12 col-sm-12 StableHeight TextCotent">
+						<h4 class="SayingText" id="SayingText1">
+							“Signals 极大地提高了我们的用户满意度。因为 Signals 容易使用，已经成为我们日常运营中的必备工具。”
+						</h4>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 TitleRule" id = "GuysTitle1">
+	<!--					<h4>Ashley Hunsucker,</h4>-->
+						<h4 class="SayingTitleTextStyle">高级产品市场分析经理</h4>
+					</div>
+
+	<!--
+					<div class="col-sm-12 NamePartRule" id = "GuysName1">
+						<h4 class="NameOh">Ally</h4>
+					</div>
+	-->
+					<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-left ButtonIconLittleMarginleft" id="AllayWhiteIcon">
+						<img src="Resource/Icons/WhiteIcon/AllySaying_WhiteIcon.png"></img>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-4" id = "TextContent2">
+
+					<div class = "col-xs-12 col-sm-12 StableHeight TextCotent">
+						<h4 class="SayingText" id="SayingText2">
+							“原来我们需要人工制作行情分析模型，耗时耗力。Signals 的行情分析模型极大减轻了我们的工作量，让我们更专注于提高用户体验上。”
+						</h4>					
+					</div>
+
+					<div class="col-xs-12 col-sm-12 TitleRule" id = "GuysTitle2">
+	<!--					<h4>Harshad Varia,</h4>-->
+						<h4 class="SayingTitleTextStyle">高级用户体验经理</h4>
+					</div>
+
+	<!--
+					<div class="col-sm-12 NamePartRule" id = "GuysName2">
+						<h4 class="NameOh">Lenovo</h4>
+					</div>				
+	-->
+					<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-left ButtonIconLittleMarginleft" id="LenoveWhiteIcon">
+						<img src="Resource/Icons/WhiteIcon/LenoveSaying_WhiteIcon.png"></img>
+					</div>
+
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-4" id = "TextContent3">
+
+					<div class = "col-xs-12 col-sm-12 StableHeight TextCotent">
+						<h4 class="SayingText" id="SayingText3">
+							“不光非常有利于获取用户观点，简易直观的操作界面更是让市场人员如虎添翼。”					
+						</h4>						
+					</div>
+
+					<div class="col-xs-12 col-sm-12 TitleRule" id = "GuysTitle3">
+	<!--					<h4>Roger Beasley, </h4>-->
+						<h4 class="SayingTitleTextStyle">首席战略官</h4>
+					</div>
+
+					<div class="col-xs-12 col-sm-12 col-md-12 SayingImage text-left ButtonIconLittleMarginleft" id="ErwinWhiteIcon">
+						<img src="Resource/Icons/WhiteIcon/ErwinSayingIcon_White.png"></img>
+					</div>			
+
+				</div>
+
+			</div>
+		</div>		
+	</div>
+
+</div>
+
+<div class="containers" id="BottomLinkPart">
+	<div class = "container">
+		<div class = "row" id = "BottomLinkBox">
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox1">
+				<span class = "BottomLinkTitle" id = "BottomProduct">产品</span>
+				<p class="SmallButtonTextLeft GrayText" id = "HIWText">工作原理</p>
+				<p class="SmallButtonTextLeft GrayText" id = "ETUText">简单易用</p>
+				<p class="SmallButtonTextLeft GrayText" id = "INVisText">直观界面</p>
+				<p class="SmallButtonTextLeft" id = "HPAText">深层分析能力</p>
+				<p class="SmallButtonTextLeft" id = "ComDataText">高效商业智能方案</p>
+			</div>
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox2">
+				<span class = "BottomLinkTitle" id = "BottomSolutions">解决方案</span>
+				<p class="SmallButtonTextLeft" id = "BIext">商业智能BI</p>
+				<p class="SmallButtonTextLeft" id = "ExcuText">管理者</p>
+				<p class="SmallButtonTextLeft" id = "MarketText">市场营销</p>
+				<p class="SmallButtonTextLeft" id = "CustomerEXText">用户体验</p>
+				<p class="SmallButtonTextLeft" id = "RetailText">零售业</p>
+				<p class="SmallButtonTextLeft" id = "UtilitiesText">公共事业</p>	
+				<p class="SmallButtonTextLeft" id = "HospitalityText">医院</p>
+				<p class="SmallButtonTextLeft" id = "FinSerText">金融服务</p>					
+			</div>
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox3">
+				<span class = "BottomLinkTitle" id = "BottomResources">资源</span>
+				<p class="SmallButtonTextLeft" id = "BlogIext">博客</p>				
+			</div>
+			<div class = "col-xs-6 col-sm-6 col-md-3 TopMargin" id = "BottomLinkContentBox4">
+				<span class = "BottomLinkTitle" id = "BottomCompany">关于我们</span>
+				<p class="SmallButtonTextLeft" id = "OurTeamText">团队成员</p>
+				<p class="SmallButtonTextLeft" id = "JOppText">加入我们</p>
+				<p class="SmallButtonTextLeft" id = "MediaText">新闻中心</p>
+				<p class="SmallButtonTextLeft" id = "ContactText">联系我们</p>				
+			</div>		
+		</div>
+	</div>
+
+</div>
+
+
+<div class="containers" id="CopyRightBackground">
+	<div class = "container" id = "CopyRightPart">
+
+		<div class = "row" id = "BottomCopyRightPart">
+
+			<div class = "col-xs-12 col-sm-6 col-md-6 text-left" id = "CopyRightBox1">
+				<span class="CopyRight" id = "CopyRight">Copyright ©	2015 — 2016 Stratifyd, Inc.</span>
+			</div>
+
+			<div class = "col-xs-12 col-sm-6 col-md-6 text-right" id = "CopyRightBox2">
+				<div class = "col-xs-12 col-sm-12 col-md-3">
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB1">
+					<img src="Resource/Icons/FaceBook/NewfacebookBottomIcon.png" class="Icons2" id = "FacebookIcon" alt="FaceBook">
+					</img>
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB2">
+					<img src="Resource/Icons/Linkedin/NewLinkedinIcon.png" class="Icons2" id = "LinkedinIcon" alt="Linkedin">
+					</img>
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB3">
+					<img src="Resource/Icons/Twitter/NewTwitterBottomIcon.png" class="Icons2" id = "TwitterIcon" alt="Twitter">
+					</img>	
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB4">
+					<img src="Resource/Icons/YouTube/NewYoutubeBottomIcon.png" class="Icons2" id = "YoutubeIcon" alt="Youtube">
+					</img>
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB5">
+					<img src="Resource/Icons/GooglePlus/NewTestGooglePlusBottomIcon.png" class="Icons2" id = "GooglePlusIcon" alt="GooglePlus">
+					</img>						
+				</div>
+
+				<div class = "col-xs-2 col-sm-2 col-md-1 BottomIconLink" id = "ConnectIconB6">
+					<img src="Resource/Icons/Tumblr/NewTumblrBottomIcon.png" class="Icons2" id = "TumblrIcon" alt="Tumblr">
+					</img>				
+				</div>
+			</div>
+
+		</div>	
+	</div>	
+</div>
+
+	
+<!-- Resource or Library Scripts -->
+
+<!--
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://www.ourd3js.com/library/multext.js" charset="utf-8"></script>
+-->
+<script src="lib/d3/d3.js"></script>
+<script src="lib/d3/d3.min.js"></script>
+<script src="lib/queue/queue.min.js"></script>
+<script src="lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="lib/FastClick/fastclick.js"></script>
+	
+<!-- Control Scripts-->
+<script src="Script/TransForm.js"></script>
+<script src="Script/GlobalControl.js"></script>
+<script src="Script/FontSizeControl.js"></script>
+<script src="Script/MouseAction.js"></script>
+<script src="Script/LandingPageDesigned.js"></script>
+<script src="Script/WindowResize.js"></script>
+<script src="lib/css3-mediaqueries-js-master/css3-mediaqueries.js"></script>
+
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/yobfq5ll';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+<script>$(function() {window.Intercom("boot", { app_id: "yobfq5ll" });})</script>
+
+</body>
+</html>
