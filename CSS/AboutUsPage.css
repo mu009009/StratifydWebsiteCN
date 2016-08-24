@@ -18,7 +18,7 @@
 }
 #SignalsText{
 	margin-top: 0px;
-	color: white;
+	color: rgb(255,255,255);
 	font-weight: lighter;
 	text-align: center;
 	font-size: 1.5em;
@@ -165,7 +165,7 @@
 }
 #TitleBar{
 	background-color: transparent;
-	background: url(../Resource/AboutUsImages/AboutUsBackgroundNew.jpg);
+	background: url(../Resource/AboutUsImages/AboutUsBackgroundGray.jpg);
 	background-size: cover;
 	background-size-height: 100%;
 	background-position: center center;
@@ -321,7 +321,7 @@
 }
 #MainAttarctText{
 	font-family: "Arial";
-	color: white;
+	color: rgb(255,255,255);
 	font-weight: bold;
 	text-align: center;
 	font-size: 4.5em;
@@ -366,5 +366,13 @@
 	}
 	.MissionText{
 		text-align: left;
+		margin-top: 16px;
+	}
+	#OurMissionTitle{
+		margin-top: 48px;
+		margin-bottom: 16px;
+	}
+	#StoryRow2{
+		padding-bottom: 33px;
 	}
 }
