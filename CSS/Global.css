@@ -6,6 +6,7 @@ html{
 }
 body{
 	background-color: rgb(255,255,255);
+	font-size: 16px;
 	font-family: "Arial";
 }
 .CompanyIconPart{
@@ -273,7 +274,7 @@ body{
 .NavBarButtons{
 	font-family: "Arial";
 	color: rgb(159,158,163);
-	font-size: 14px;
+	font-size: 1EM;
 	font-weight: 300;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
