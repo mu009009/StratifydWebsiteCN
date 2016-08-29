@@ -193,7 +193,7 @@
 	background-color: rgb(138,147,253);
 }
 .navbar-nav>li>.dropdown-menu{
-	background-color: rgb(138,147,253);
+	background-color: rgba(138,147,253,0.8);
 }
 #DetailColum2{
 	border-left-color: transparent;
@@ -212,8 +212,10 @@
 	margin-bottom: 0px;
 }
 #ProcessDetailContent{
+/*
 	padding-left: 2.5%;
 	padding-right: 2.5%;
+*/
 /*	padding-bottom: 104px;*/
 }
 #LinkButtonPartText1{
@@ -358,7 +360,7 @@
 	opacity: 0.2;
 }
 .SpecialColumn{
-	width: 15px;
+	width: 10px;
 	margin-right: 5px;
 	padding-left: 0px; 
 	padding-right: 0px;
@@ -400,8 +402,10 @@
 	cursor: default;
 }
 #TextBox{
+/*
 	padding-left: 6.25%;
 	padding-right: 6.25%;
+*/
 }
 #TextSayingPart{
 	background-color: rgb(255,255,255);

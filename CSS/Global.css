@@ -69,7 +69,7 @@ body{
 	background-color: rgb(136,134,172);
 }
 .navbar-nav>li>.dropdown-menu{
-	background-color: rgb(136,134,172);
+	background-color: rgba(136,134,172,0.8);
 }
 .dropdown-menu>li>a{
 	color: white;
