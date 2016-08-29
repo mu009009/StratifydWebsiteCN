@@ -49,6 +49,10 @@
 	font-weight: bold;
 	font-size: 2.5em;
 }
+.SubIntroTitle{
+	font-size: 2em;
+	color: rgb(165,165,165);
+}
 .SolutionBox{
 	height: 200px;
 }
@@ -157,7 +161,7 @@
 	padding-top: 118px;
 }
 #StoryRow2{
-	padding-bottom: 66px;
+/*	padding-bottom: 66px;*/
 }
 #PhotoRow{
 /*	margin-top: 98px;*/
