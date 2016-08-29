@@ -50,7 +50,7 @@
 	font-size: 2.5em;
 }
 .SubIntroTitle{
-	font-size: 2em;
+	font-size: 1.2em;
 	color: rgb(165,165,165);
 }
 .SolutionBox{
@@ -161,7 +161,7 @@
 	padding-top: 118px;
 }
 #StoryRow2{
-/*	padding-bottom: 66px;*/
+	padding-bottom: 20px;
 }
 #PhotoRow{
 /*	margin-top: 98px;*/
@@ -377,6 +377,6 @@
 		margin-bottom: 16px;
 	}
 	#StoryRow2{
-		padding-bottom: 33px;
+		padding-bottom: 20px;
 	}
 }
