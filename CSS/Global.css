@@ -217,7 +217,7 @@ body{
 }
 .FontAwosomeIcon{
 	
-	font-size: 2em;
+	font-size: 1.3em;
 	
 	transition-duration: 0.2s;
 	color: #057cd9;
@@ -250,7 +250,7 @@ body{
 	padding-right: 3.8%;
 	padding-top: 7px;
 	padding-bottom: 7px;
-	background-color: rgb(99,104,247);
+	background-color: rgb(108,126,217);
 	border-color: transparent;
 	text-align: center;
 	min-height: 70px;
@@ -372,12 +372,12 @@ body{
 	border-radius: 3%;
 	transition-duration: 0.2s;
 	color: white;
-	background-color: rgb(99,104,247);
-	border-color: rgb(99,104,247);
+	background-color: rgb(108,126,217);
+	border-color: rgb(108,126,217);
 }
 #FirstTry:hover{
 	transition-duration: 0.2s;
-	color: rgb(99,104,247);
+	color: rgb(108,126,217);
 	background-color: rgb(255,255,255);
 	border-color: rgb(255,255,255);
 }
@@ -440,6 +440,12 @@ body{
 
 	.site-map-list:nth-child(4) {
 		text-align: right;
+	}
+	.BottomAlligainChange-Left{
+		text-align: center;
+	}
+	.BottomAlligainChange-Right{
+		text-align: center;
 	}	
 }
 

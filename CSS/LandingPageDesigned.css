@@ -84,9 +84,9 @@
 	height: 60px;
 	width: 272px;
 	border-radius: 3%;
-	color: rgb(99,104,247);
+	color: rgb(108,126,217);
 	background-color: transparent;
-	border-color: rgb(99,104,247);
+	border-color: rgb(108,126,217);
 	max-width: 100%;
 }
 #ASolutionYN{
@@ -135,7 +135,7 @@
 	padding-top: 30px;
 	
 	transition-duration: 0.2s;
-	background-color: rgb(99,106,247);
+	background-color: rgb(108,126,217);
 }
 .CenterandBoder:hover{
 	transition-duration: 0.2s;
@@ -163,7 +163,7 @@
 	padding-top: 30px;
 	
 	transition-duration: 0.2s;
-	background-color: rgb(99,106,247);
+	background-color: rgb(108,126,217);
 }
 .CenterandBoder2:hover{
 	transition-duration: 0.2s;
@@ -410,7 +410,7 @@
 #TextSayingPart{
 	background-color: rgb(255,255,255);
 	padding-bottom: 114px;
-	background: url(../Resource/LandingPageImages/CustomerSayingBackground.png);
+	background: url(../Resource/LandingPageImages/CustomerSayingBackground.jpg);
 	background-size: cover;
 }
 #LinkButtonCotainBox14{
