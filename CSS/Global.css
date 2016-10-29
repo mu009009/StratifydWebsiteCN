@@ -353,9 +353,9 @@ body{
 	max-height: 60px;
 	width: 10%;
 */
-	height: 2em;
+	height: 1.6em;
 	position: relative;
-	top: -0.6em;
+	top: -0.4em;
 }
 .SecondRowTitle{
 	font-family: "Arial";
